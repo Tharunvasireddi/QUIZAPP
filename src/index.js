@@ -9,7 +9,92 @@ document.addEventListener("DOMContentLoaded", () => {
           question: "Which planet is known as the Red Planet?",
           choices: ["Earth", "Mars", "Jupiter", "Venus"],
           answer: "Mars",
-      }
+      },
+      {
+        question: "What is the largest mammal in the world?",
+        choices: ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+        answer: "Blue Whale",
+      },
+      {
+        question: "Who wrote the play 'Romeo and Juliet'?",
+        choices: [
+          "William Shakespeare",
+          "Mark Twain",
+          "Charles Dickens",
+          "Jane Austen",
+        ],
+        answer: "William Shakespeare",
+      },
+      {
+        question: "What is the boiling point of water at sea level?",
+        choices: ["90°C", "100°C", "110°C", "120°C"],
+        answer: "100°C",
+      },
+      {
+        question: "What is the smallest prime number?",
+        choices: ["1", "2", "3", "5"],
+        answer: "2",
+      },
+      {
+        question: "What is the chemical symbol for gold?",
+        choices: ["Au", "Ag", "Pb", "Fe"],
+        answer: "Au",
+      },
+      {
+        question: "Who painted the Mona Lisa?",
+        choices: [
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Leonardo da Vinci",
+          "Claude Monet",
+        ],
+        answer: "Leonardo da Vinci",
+      },
+      {
+        question: "What is the hardest natural substance on Earth?",
+        choices: ["Gold", "Iron", "Diamond", "Platinum"],
+        answer: "Diamond",
+      },
+      {
+        question: "What is the largest planet in our solar system?",
+        choices: ["Earth", "Mars", "Jupiter", "Saturn"],
+        answer: "Jupiter",
+      },
+      {
+        question: "What is the main ingredient in guacamole?",
+        choices: ["Tomato", "Onion", "Avocado", "Pepper"],
+        answer: "Avocado",
+      },
+      {
+        question: "What is the capital of Japan?",
+        choices: ["Beijing", "Seoul", "Tokyo", "Bangkok"],
+        answer: "Tokyo",
+      },
+      {
+        question: "What is the square root of 64?",
+        choices: ["6", "7", "8", "9"],
+        answer: "8",
+      },
+      {
+        question: "Who developed the theory of relativity?",
+        choices: [
+          "Isaac Newton",
+          "Albert Einstein",
+          "Galileo Galilei",
+          "Nikola Tesla",
+        ],
+        answer: "Albert Einstein",
+      },
+      {
+        question: "What is the largest ocean on Earth?",
+        choices: [
+          "Atlantic Ocean",
+          "Indian Ocean",
+          "Arctic Ocean",
+          "Pacific Ocean",
+        ],
+        answer: "Pacific Ocean",
+      },
   ];
 
   let start = document.getElementById("start");
